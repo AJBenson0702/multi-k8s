@@ -19,7 +19,7 @@ before_install:
 
 script
   - docker run ajbenson/react-test npm test -- --coverage
-#deployment
+  
 deploy:
   provider: script
   script: bash ./deploy.sh
